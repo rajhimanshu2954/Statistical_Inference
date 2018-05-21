@@ -2,9 +2,11 @@
 title: "Statistical_inference_Course_project"
 author: "Himanshu Raj"
 date: "9 May 2018"
-output: 
+output:
+  word_document: default
+  pdf_document: default
   html_document:
-    keep_md: true
+    keep_md: yes
 ---
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
